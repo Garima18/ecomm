@@ -32,6 +32,8 @@ Response:
 }
 
 Getting item list:
+- getting all the items, all and by ids
+
 http://localhost:8087/ecomm/getItem?item_id=
 http://localhost:8087/ecomm/getItem
 
@@ -55,6 +57,7 @@ Response:
 
 
 Bulk Ordering:
+- order multiple items all at once
 http://localhost:8087/ecomm/makeOrder
 
 {
@@ -78,7 +81,8 @@ Response:
 
 
 Showing orders:
-//Can display order by order id or all orders
+- Can display order by order id or all orders
+
 http://localhost:8087/ecomm/showOrder?order_id=3
 http://localhost:8087/ecomm/showOrder
 
